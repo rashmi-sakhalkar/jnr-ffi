@@ -9,7 +9,7 @@ notifications:
       - "%{repository} (%{branch}:%{commit} by %{author}): %{message} (%{build_url})"
 matrix:
   include:
-    - os: osx
+    - os: linux-ppc64le
 sudo: false
 cache:
   directories:
