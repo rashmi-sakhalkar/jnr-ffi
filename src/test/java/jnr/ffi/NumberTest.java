@@ -354,7 +354,7 @@ public class NumberTest {
     @Test public void testBooleanFromInt() throws Exception {
         assertEquals(false, testboolean.ret_int32_t(0));
         assertEquals(true, testboolean.ret_int32_t(-1));
-        //assertEquals(true, testboolean.ret_int32_t(1));
+        assertEquals(true, testboolean.ret_int32_t(1));
         //assertEquals(true, testboolean.ret_int32_t(2));
     }
 }
